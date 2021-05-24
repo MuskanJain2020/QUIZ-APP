@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <!-- <link rel="stylesheet" href="css/bootstrap.css"/> -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
+   <link rel="stylesheet" href="start.css"/>
+
+</head>
+<body style="background-color: lightsalmon;">
+    <div class="wrapper">
+        <div class="quiz">
+            <div class="quiz_header">
+                <div class="quiz_user">Welcome! <span class="name"></span>  </div>
+                <div class="quiz_timer"> <span class="time">o</span></div>
+            </div>
+            <div class="quiz_body">
+                <div   id="questions"></div>
+               <!-- <h1>Q1.what is the full form of RAM?</h1> 
+                <ul class="option_group">
+                    <li class="option">a</li>
+                    <li class="option">b</li>
+                    <li class="option">c</li>
+                    <li class="option">d</li>
+
+                </ul>-->
+                <button class="btn-next" onclick="next()">Next Question</button>
+
+                <button class="btn-ans"  onclick="showans()">Show Answer</button>
+                <!-- <h4 class="showanswer"></h4> -->
+                <p      id="showanswer" ><em></em></p>
+                      
+                    </div>
+                  </div>
+        </div>
+    </div>
+ 
+     
+</body>
+<script src="timer.js"></script>
+
+<script src="info.js "></script>
+<script src="start.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.7/js/tether.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script> 
+</html>
