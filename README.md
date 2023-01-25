@@ -1,7 +1,7 @@
 # QUIZ-APP
  QUIZ-APP is a responsive web app developed in HTML ,CSS , Bootstrap and Javascript compatable in different browsers (Google Chrome ,Microsoft Edge ,Firefox). All the quizes contain timer.After finishing a quiz , a scoreboard page containing player name, his scores and time taken will appear on screen.
  
- #home page
+ # home page
  ![image](https://user-images.githubusercontent.com/83420072/119300154-e8f16480-bc7d-11eb-8f9d-193fddb1bd78.png)
 .
 ![image](https://user-images.githubusercontent.com/83420072/119300194-fad30780-bc7d-11eb-8359-f8697e58d072.png)
